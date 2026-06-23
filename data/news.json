@@ -1,129 +1,72 @@
 [
   {
     "id": 1,
-    "crawl_date": "2026-06-24",
-    "article_date": "2026-06-24",
-    "category": "정보유출",
-    "title": "한국인 평생 중 29년을 온라인에서 소비...개인정보 노출 위험은 상존",
-    "summary": "한국인 평생 중 29년을 온라인에서 소비...개인정보 노출 위험은 상존",
+    "crawl_date": "2026-06-23",
+    "article_date": "2026-06-23",
+    "category": "보안사고",
+    "title": "[PIS FIAR 2026] 해킹으로 알아낸 비리 신고한다는 해커... 레질리언스, 단지 인프라 문제일까?",
+    "summary": "[PIS FIAR 2026] 해킹으로 알아낸 비리 신고한다는 해커... 레질리언스, 단지 인프라 문제일까?",
     "detail": "기사 원문을 통해 상세 내용을 확인할 수 있습니다.",
-    "source": "데일리시큐",
-    "url": "https://www.dailysecu.com/news/articleView.html?idxno=207276",
+    "source": "보안뉴스",
+    "url": "https://www.boannews.com/media/view.asp?idx=144291&kind=123",
+    "tags": [
+      "해킹"
+    ]
+  },
+  {
+    "id": 2,
+    "crawl_date": "2026-06-23",
+    "article_date": "2026-06-23",
+    "category": "정보유출",
+    "title": "[PIS FAIR 2026] 서울시 개인정보보호포럼 개최... AI 시대 개인정보보호와 과제 논의",
+    "summary": "[PIS FAIR 2026] 서울시 개인정보보호포럼 개최... AI 시대 개인정보보호와 과제 논의",
+    "detail": "기사 원문을 통해 상세 내용을 확인할 수 있습니다.",
+    "source": "보안뉴스",
+    "url": "https://www.boannews.com/media/view.asp?idx=144287&kind=2",
     "tags": [
       "개인정보"
     ]
   },
   {
-    "id": 2,
-    "crawl_date": "2026-06-24",
-    "article_date": "2026-06-24",
+    "id": 3,
+    "crawl_date": "2026-06-23",
+    "article_date": "2026-06-23",
     "category": "CVE",
-    "title": "오픈AI, 사이버 방어 ‘데이브레이크’ 확대…취약점 탐지부터 패치까지 자동화",
-    "summary": "오픈AI, 사이버 방어 ‘데이브레이크’ 확대…취약점 탐지부터 패치까지 자동화",
+    "title": "“코드 작성 즉시 취약점 검증한다” 스패로우, ‘스패로우 MCP’ 출시",
+    "summary": "“코드 작성 즉시 취약점 검증한다” 스패로우, ‘스패로우 MCP’ 출시",
     "detail": "기사 원문을 통해 상세 내용을 확인할 수 있습니다.",
-    "source": "데일리시큐",
-    "url": "https://www.dailysecu.com/news/articleView.html?idxno=207269",
+    "source": "보안뉴스",
+    "url": "https://www.boannews.com/media/view.asp?idx=144292&skind=i",
     "tags": [
       "취약점"
-    ]
-  },
-  {
-    "id": 3,
-    "crawl_date": "2026-06-24",
-    "article_date": "2026-06-24",
-    "category": "랜섬웨어",
-    "title": "인터폴 “아태지역 랜섬웨어 공격 13만5000건”…딥페이크 사기도 산업화",
-    "summary": "인터폴 “아태지역 랜섬웨어 공격 13만5000건”…딥페이크 사기도 산업화",
-    "detail": "기사 원문을 통해 상세 내용을 확인할 수 있습니다.",
-    "source": "데일리시큐",
-    "url": "https://www.dailysecu.com/news/articleView.html?idxno=207267",
-    "tags": [
-      "랜섬웨어"
     ]
   },
   {
     "id": 4,
-    "crawl_date": "2026-06-24",
-    "article_date": "2026-06-24",
-    "category": "보안사고",
-    "title": "한국 노린 공유기 봇넷 ‘아리스팅어’ 확산…해킹 공격 중계지로 악용",
-    "summary": "한국 노린 공유기 봇넷 ‘아리스팅어’ 확산…해킹 공격 중계지로 악용",
+    "crawl_date": "2026-06-23",
+    "article_date": "2026-06-23",
+    "category": "정보유출",
+    "title": "[PIS FAIR 2026] 개인정보위, 개인정보 국외이전 위한 표준계약 마련한다",
+    "summary": "[PIS FAIR 2026] 개인정보위, 개인정보 국외이전 위한 표준계약 마련한다",
     "detail": "기사 원문을 통해 상세 내용을 확인할 수 있습니다.",
-    "source": "데일리시큐",
-    "url": "https://www.dailysecu.com/news/articleView.html?idxno=207266",
+    "source": "보안뉴스",
+    "url": "https://www.boannews.com/media/view.asp?idx=144285&kind=3",
     "tags": [
-      "해킹"
+      "개인정보"
     ]
   },
   {
     "id": 5,
-    "crawl_date": "2026-06-24",
-    "article_date": "2026-06-24",
-    "category": "보안사고",
-    "title": "이메일 해킹 없이 뚫린 인스타그램, 허점은 메타 AI 챗봇 지원 절차",
-    "summary": "이메일 해킹 없이 뚫린 인스타그램, 허점은 메타 AI 챗봇 지원 절차",
-    "detail": "기사 원문을 통해 상세 내용을 확인할 수 있습니다.",
-    "source": "데일리시큐",
-    "url": "https://www.dailysecu.com/news/articleView.html?idxno=207027",
-    "tags": [
-      "해킹"
-    ]
-  },
-  {
-    "id": 6,
-    "crawl_date": "2026-06-24",
-    "article_date": "2026-06-24",
-    "category": "보안사고",
-    "title": "북한 해킹조직 킴수키, 3월과 4월 한국 군·기업 겨냥 신종 공격 정황 포착",
-    "summary": "북한 해킹조직 킴수키, 3월과 4월 한국 군·기업 겨냥 신종 공격 정황 포착",
-    "detail": "기사 원문을 통해 상세 내용을 확인할 수 있습니다.",
-    "source": "데일리시큐",
-    "url": "https://www.dailysecu.com/news/articleView.html?idxno=206971",
-    "tags": [
-      "해킹"
-    ]
-  },
-  {
-    "id": 7,
-    "crawl_date": "2026-06-24",
-    "article_date": "2026-06-24",
-    "category": "CVE",
-    "title": "AI가 찾아낸 ‘HTTP/2 폭탄’…88만 개 웹사이트 흔든 인터넷 핵심 취약점",
-    "summary": "AI가 찾아낸 ‘HTTP/2 폭탄’…88만 개 웹사이트 흔든 인터넷 핵심 취약점",
-    "detail": "기사 원문을 통해 상세 내용을 확인할 수 있습니다.",
-    "source": "데일리시큐",
-    "url": "https://www.dailysecu.com/news/articleView.html?idxno=207201",
-    "tags": [
-      "취약점"
-    ]
-  },
-  {
-    "id": 8,
-    "crawl_date": "2026-06-24",
-    "article_date": "2026-06-24",
+    "crawl_date": "2026-06-23",
+    "article_date": "2026-06-23",
     "category": "정보유출",
-    "title": "[이슈진단: 롯데카드 정보유출 사고 인적 제재 논란-1] 전·현직 CISO ‘정직·4년 재취업 제한’…금융보안 강화인가, 보안인재 퇴출인가",
-    "summary": "[이슈진단: 롯데카드 정보유출 사고 인적 제재 논란-1] 전·현직 CISO ‘정직·4년 재취업 제한’…금융보안 강화인가, 보안인재 퇴출인가",
+    "title": "[PIS FAIR 2026] KOTRA, 개인정보보호 수준평가 2년 만에 C→S등급 도약 비결은?",
+    "summary": "[PIS FAIR 2026] KOTRA, 개인정보보호 수준평가 2년 만에 C→S등급 도약 비결은?",
     "detail": "기사 원문을 통해 상세 내용을 확인할 수 있습니다.",
-    "source": "데일리시큐",
-    "url": "https://www.dailysecu.com/news/articleView.html?idxno=206900",
+    "source": "보안뉴스",
+    "url": "https://www.boannews.com/media/view.asp?idx=144284&kind=3",
     "tags": [
-      "정보유출"
-    ]
-  },
-  {
-    "id": 9,
-    "crawl_date": "2026-06-24",
-    "article_date": "2026-06-24",
-    "category": "정보유출",
-    "title": "텍사스주 면허 시스템 해킹…308만명 개인정보 노출",
-    "summary": "텍사스주 면허 시스템 해킹…308만명 개인정보 노출",
-    "detail": "기사 원문을 통해 상세 내용을 확인할 수 있습니다.",
-    "source": "데일리시큐",
-    "url": "https://www.dailysecu.com/news/articleView.html?idxno=207265",
-    "tags": [
-      "개인정보",
-      "해킹"
+      "개인정보"
     ]
   }
 ]
