@@ -1,0 +1,43 @@
+name: Update Security News
+
+on:
+  schedule:
+    - cron: '0 0 * * *'   # UTC 00:00 = 한국시간 오전 9시
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install Packages
+        run: |
+          pip install requests beautifulsoup4
+
+      - name: Run Crawler
+        run: |
+          python crawler/crawler.py
+
+      - name: Commit Changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+
+          git add data/news.json
+
+          git diff --cached --quiet || git commit -m "Auto update news"
+
+      - name: Push
+        run: |
+          git push

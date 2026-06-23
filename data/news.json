@@ -1,35 +1,129 @@
 [
   {
     "id": 1,
-    "date": "2026-06-24",
-    "category": "CVE",
-    "title": "Windows Netlogon 제로클릭 RCE 취약점",
-    "summary": "Windows Netlogon 관련 원격 코드 실행 취약점으로, 내부망 환경에서 높은 위험도를 가질 수 있는 사례입니다.",
-    "detail": "사용자 개입 없이 원격 코드 실행이 가능할 수 있어 패치 적용 및 내부망 접근 제어가 필요합니다.",
-    "source": "보안뉴스",
-    "url": "https://example.com/article1",
-    "tags": ["CVE", "RCE", "Windows"]
+    "crawl_date": "2026-06-24",
+    "article_date": "2026-06-24",
+    "category": "정보유출",
+    "title": "한국인 평생 중 29년을 온라인에서 소비...개인정보 노출 위험은 상존",
+    "summary": "한국인 평생 중 29년을 온라인에서 소비...개인정보 노출 위험은 상존",
+    "detail": "기사 원문을 통해 상세 내용을 확인할 수 있습니다.",
+    "source": "데일리시큐",
+    "url": "https://www.dailysecu.com/news/articleView.html?idxno=207276",
+    "tags": [
+      "개인정보"
+    ]
   },
   {
     "id": 2,
-    "date": "2026-06-24",
-    "category": "정보유출",
-    "title": "개인정보 유출 사고 사례",
-    "summary": "서비스 내 비인가 접근으로 인해 이름, 이메일, 전화번호 등 개인정보가 노출된 사례입니다.",
-    "detail": "DB 접근 통제, 로그 모니터링, 개인정보 암호화, 사고 대응 절차 점검이 필요합니다.",
+    "crawl_date": "2026-06-24",
+    "article_date": "2026-06-24",
+    "category": "CVE",
+    "title": "오픈AI, 사이버 방어 ‘데이브레이크’ 확대…취약점 탐지부터 패치까지 자동화",
+    "summary": "오픈AI, 사이버 방어 ‘데이브레이크’ 확대…취약점 탐지부터 패치까지 자동화",
+    "detail": "기사 원문을 통해 상세 내용을 확인할 수 있습니다.",
     "source": "데일리시큐",
-    "url": "https://example.com/article2",
-    "tags": ["정보유출", "개인정보", "DB"]
+    "url": "https://www.dailysecu.com/news/articleView.html?idxno=207269",
+    "tags": [
+      "취약점"
+    ]
   },
   {
     "id": 3,
-    "date": "2026-06-24",
+    "crawl_date": "2026-06-24",
+    "article_date": "2026-06-24",
     "category": "랜섬웨어",
-    "title": "랜섬웨어 공격 증가 동향",
-    "summary": "기업 내부 시스템을 대상으로 한 랜섬웨어 공격이 지속적으로 보고되고 있습니다.",
-    "detail": "백업 체계, 이메일 보안, 엔드포인트 탐지, 권한 관리 점검이 중요합니다.",
-    "source": "보안뉴스",
-    "url": "https://example.com/article3",
-    "tags": ["랜섬웨어", "악성코드", "침해사고"]
+    "title": "인터폴 “아태지역 랜섬웨어 공격 13만5000건”…딥페이크 사기도 산업화",
+    "summary": "인터폴 “아태지역 랜섬웨어 공격 13만5000건”…딥페이크 사기도 산업화",
+    "detail": "기사 원문을 통해 상세 내용을 확인할 수 있습니다.",
+    "source": "데일리시큐",
+    "url": "https://www.dailysecu.com/news/articleView.html?idxno=207267",
+    "tags": [
+      "랜섬웨어"
+    ]
+  },
+  {
+    "id": 4,
+    "crawl_date": "2026-06-24",
+    "article_date": "2026-06-24",
+    "category": "보안사고",
+    "title": "한국 노린 공유기 봇넷 ‘아리스팅어’ 확산…해킹 공격 중계지로 악용",
+    "summary": "한국 노린 공유기 봇넷 ‘아리스팅어’ 확산…해킹 공격 중계지로 악용",
+    "detail": "기사 원문을 통해 상세 내용을 확인할 수 있습니다.",
+    "source": "데일리시큐",
+    "url": "https://www.dailysecu.com/news/articleView.html?idxno=207266",
+    "tags": [
+      "해킹"
+    ]
+  },
+  {
+    "id": 5,
+    "crawl_date": "2026-06-24",
+    "article_date": "2026-06-24",
+    "category": "보안사고",
+    "title": "이메일 해킹 없이 뚫린 인스타그램, 허점은 메타 AI 챗봇 지원 절차",
+    "summary": "이메일 해킹 없이 뚫린 인스타그램, 허점은 메타 AI 챗봇 지원 절차",
+    "detail": "기사 원문을 통해 상세 내용을 확인할 수 있습니다.",
+    "source": "데일리시큐",
+    "url": "https://www.dailysecu.com/news/articleView.html?idxno=207027",
+    "tags": [
+      "해킹"
+    ]
+  },
+  {
+    "id": 6,
+    "crawl_date": "2026-06-24",
+    "article_date": "2026-06-24",
+    "category": "보안사고",
+    "title": "북한 해킹조직 킴수키, 3월과 4월 한국 군·기업 겨냥 신종 공격 정황 포착",
+    "summary": "북한 해킹조직 킴수키, 3월과 4월 한국 군·기업 겨냥 신종 공격 정황 포착",
+    "detail": "기사 원문을 통해 상세 내용을 확인할 수 있습니다.",
+    "source": "데일리시큐",
+    "url": "https://www.dailysecu.com/news/articleView.html?idxno=206971",
+    "tags": [
+      "해킹"
+    ]
+  },
+  {
+    "id": 7,
+    "crawl_date": "2026-06-24",
+    "article_date": "2026-06-24",
+    "category": "CVE",
+    "title": "AI가 찾아낸 ‘HTTP/2 폭탄’…88만 개 웹사이트 흔든 인터넷 핵심 취약점",
+    "summary": "AI가 찾아낸 ‘HTTP/2 폭탄’…88만 개 웹사이트 흔든 인터넷 핵심 취약점",
+    "detail": "기사 원문을 통해 상세 내용을 확인할 수 있습니다.",
+    "source": "데일리시큐",
+    "url": "https://www.dailysecu.com/news/articleView.html?idxno=207201",
+    "tags": [
+      "취약점"
+    ]
+  },
+  {
+    "id": 8,
+    "crawl_date": "2026-06-24",
+    "article_date": "2026-06-24",
+    "category": "정보유출",
+    "title": "[이슈진단: 롯데카드 정보유출 사고 인적 제재 논란-1] 전·현직 CISO ‘정직·4년 재취업 제한’…금융보안 강화인가, 보안인재 퇴출인가",
+    "summary": "[이슈진단: 롯데카드 정보유출 사고 인적 제재 논란-1] 전·현직 CISO ‘정직·4년 재취업 제한’…금융보안 강화인가, 보안인재 퇴출인가",
+    "detail": "기사 원문을 통해 상세 내용을 확인할 수 있습니다.",
+    "source": "데일리시큐",
+    "url": "https://www.dailysecu.com/news/articleView.html?idxno=206900",
+    "tags": [
+      "정보유출"
+    ]
+  },
+  {
+    "id": 9,
+    "crawl_date": "2026-06-24",
+    "article_date": "2026-06-24",
+    "category": "정보유출",
+    "title": "텍사스주 면허 시스템 해킹…308만명 개인정보 노출",
+    "summary": "텍사스주 면허 시스템 해킹…308만명 개인정보 노출",
+    "detail": "기사 원문을 통해 상세 내용을 확인할 수 있습니다.",
+    "source": "데일리시큐",
+    "url": "https://www.dailysecu.com/news/articleView.html?idxno=207265",
+    "tags": [
+      "개인정보",
+      "해킹"
+    ]
   }
 ]
