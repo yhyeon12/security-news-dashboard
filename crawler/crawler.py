@@ -4,6 +4,7 @@ import time
 from datetime import datetime
 from pathlib import Path
 from urllib.parse import urljoin
+from zoneinfo import ZoneInfo
 
 import requests
 from bs4 import BeautifulSoup
@@ -19,7 +20,7 @@ KEYWORDS = ["CVE", "취약점", "정보유출", "개인정보", "랜섬웨어", 
 
 
 def get_soup(url):
-    response = requests.get(url, headers=HEADERS, timeout=10)
+    response = requests.get(url, headers=HEADERS, timeout=5)
     response.raise_for_status()
     response.encoding = response.apparent_encoding
     return BeautifulSoup(response.text, "html.parser")
@@ -117,10 +118,10 @@ def crawl_article_detail(url, source):
 
 def collect_links_from_boannews():
     search_urls = [
-        "https://www.boannews.com/search/news_total.asp?search=title&find=CVE",
         "https://www.boannews.com/search/news_total.asp?search=title&find=취약점",
-        "https://www.boannews.com/search/news_total.asp?search=title&find=유출",
-        "https://www.boannews.com/search/news_total.asp?search=title&find=해킹"
+        "https://www.boannews.com/search/news_total.asp?search=title&find=CVE",
+        "https://www.boannews.com/search/news_total.asp?search=title&find=공격",
+        "https://www.boannews.com/search/news_total.asp?search=title&find=랜섬웨어"
     ]
 
     links = []
@@ -143,10 +144,9 @@ def collect_links_from_boannews():
 
 def collect_links_from_dailysecu():
     search_urls = [
-        "https://www.dailysecu.com/news/articleList.html?sc_area=A&view_type=sm&sc_word=CVE",
-        "https://www.dailysecu.com/news/articleList.html?sc_area=A&view_type=sm&sc_word=취약점",
-        "https://www.dailysecu.com/news/articleList.html?sc_area=A&view_type=sm&sc_word=유출",
-        "https://www.dailysecu.com/news/articleList.html?sc_area=A&view_type=sm&sc_word=해킹"
+        "https://www.boannews.com/search/news_total.asp?search=title&find=유출",
+        "https://www.boannews.com/search/news_total.asp?search=title&find=개인정보",
+        "https://www.boannews.com/search/news_total.asp?search=title&find=해킹"
     ]
 
     links = []
@@ -205,7 +205,7 @@ def save_news(news_list):
 
 
 def main():
-    today = datetime.now().strftime("%Y-%m-%d")
+    today = datetime.now(ZoneInfo("Asia/Seoul")).strftime("%Y-%m-%d")
 
     links = []
     links.extend(collect_links_from_boannews())
