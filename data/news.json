@@ -1,17 +1,30 @@
 [
   {
     "id": 1,
-    "crawl_date": "2026-07-22",
-    "article_date": "2026-07-22",
+    "crawl_date": "2026-07-23",
+    "article_date": "2026-07-23",
     "category": "랜섬웨어",
-    "title": "“정찰부터 암호화까지 초고속”... CVE-2026-0257 킬린 랜섬웨어 주의보",
-    "summary": "“정찰부터 암호화까지 초고속”... CVE-2026-0257 킬린 랜섬웨어 주의보",
+    "title": "사상 최악 랜섬웨어 대란... ‘킬린’(Qilin) 올 한 해 1358곳 공격",
+    "summary": "사상 최악 랜섬웨어 대란... ‘킬린’(Qilin) 올 한 해 1358곳 공격",
     "detail": "기사 원문을 통해 상세 내용을 확인할 수 있습니다.",
     "source": "보안뉴스",
-    "url": "https://www.boannews.com/media/view.asp?idx=144784&page=1&kind=1",
+    "url": "https://www.boannews.com/media/view.asp?idx=144806&kind=14",
     "tags": [
-      "CVE",
       "랜섬웨어"
+    ]
+  },
+  {
+    "id": 2,
+    "crawl_date": "2026-07-23",
+    "article_date": "2026-07-23",
+    "category": "보안사고",
+    "title": "케냐 대통령 공식 웹사이트 해킹 당해... 비트코인 몸값 요구",
+    "summary": "케냐 대통령 공식 웹사이트 해킹 당해... 비트코인 몸값 요구",
+    "detail": "기사 원문을 통해 상세 내용을 확인할 수 있습니다.",
+    "source": "보안뉴스",
+    "url": "https://www.boannews.com/media/view.asp?idx=144805&kind=14",
+    "tags": [
+      "해킹"
     ]
   }
 ]
