@@ -1,16 +1,44 @@
 [
   {
     "id": 1,
-    "crawl_date": "2026-08-09",
-    "article_date": "2026-08-09",
-    "category": "CVE",
-    "title": "[한국정보보호학회 칼럼] 미토스가 촉발한 취약점의 홍수, 예견한 듯 준비된 공급망 보안 로드맵",
-    "summary": "[한국정보보호학회 칼럼] 미토스가 촉발한 취약점의 홍수, 예견한 듯 준비된 공급망 보안 로드맵",
+    "crawl_date": "2026-08-10",
+    "article_date": "2026-08-10",
+    "category": "정보유출",
+    "title": "경제·투자 플랫폼 덮친 유출 사태... 삼프로TV 개인정보 유출 공지",
+    "summary": "경제·투자 플랫폼 덮친 유출 사태... 삼프로TV 개인정보 유출 공지",
     "detail": "기사 원문을 통해 상세 내용을 확인할 수 있습니다.",
     "source": "보안뉴스",
-    "url": "https://www.boannews.com/media/view.asp?idx=145078&kind=6",
+    "url": "https://www.boannews.com/media/view.asp?idx=145084&kind=1",
     "tags": [
-      "취약점"
+      "개인정보"
+    ]
+  },
+  {
+    "id": 2,
+    "crawl_date": "2026-08-10",
+    "article_date": "2026-08-10",
+    "category": "정보유출",
+    "title": "경제·투자 플랫폼 덮친 유출 사태... 삼프로TV 개인정보 유출 공지",
+    "summary": "경제·투자 플랫폼 덮친 유출 사태... 삼프로TV 개인정보 유출 공지",
+    "detail": "기사 원문을 통해 상세 내용을 확인할 수 있습니다.",
+    "source": "보안뉴스",
+    "url": "https://www.boannews.com/media/view.asp?idx=145084&skind=5",
+    "tags": [
+      "개인정보"
+    ]
+  },
+  {
+    "id": 3,
+    "crawl_date": "2026-08-10",
+    "article_date": "2026-08-10",
+    "category": "정보유출",
+    "title": "위즈코리아, ‘개인정보 접속기록 관리’ 넘어 탐지·격리까지 대응하는 ‘WEEDS BlackBox Series’",
+    "summary": "위즈코리아, ‘개인정보 접속기록 관리’ 넘어 탐지·격리까지 대응하는 ‘WEEDS BlackBox Series’",
+    "detail": "기사 원문을 통해 상세 내용을 확인할 수 있습니다.",
+    "source": "보안뉴스",
+    "url": "https://www.boannews.com/media/view.asp?idx=145075&skind=i",
+    "tags": [
+      "개인정보"
     ]
   }
 ]
